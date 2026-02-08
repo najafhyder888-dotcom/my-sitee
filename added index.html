@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Proposal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to bottom, #ffebee, #ffcdd2);
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .hearts {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        .heart {
+            position: absolute;
+            color: #e91e63;
+            font-size: 20px;
+            animation: fall 5s linear infinite;
+        }
+        @keyframes fall {
+            0% {
+                transform: translateY(-100vh) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        h1 {
+            color: #c2185b;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="hearts">
+        <div class="heart" style="left: 10%; animation-delay: 0s;">❤️</div>
+        <div class="heart" style="left: 20%; animation-delay: 1s;">💖</div>
+        <div class="heart" style="left: 30%; animation-delay: 2s;">💕</div>
+        <div class="heart" style="left: 40%; animation-delay: 3s;">❤️</div>
+        <div class="heart" style="left: 50%; animation-delay: 4s;">💖</div>
+        <div class="heart" style="left: 60%; animation-delay: 1s;">💕</div>
+        <div class="heart" style="left: 70%; animation-delay: 2s;">❤️</div>
+        <div class="heart" style="left: 80%; animation-delay: 3s;">💖</div>
+        <div class="heart" style="left: 90%; animation-delay: 0s;">💕</div>
+    </div>
+    <h1>Happy propose day, Rifa🫶🏻</h1>
+</body>
+</html>
